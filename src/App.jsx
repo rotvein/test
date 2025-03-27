@@ -6,7 +6,6 @@ function App() {
   useEffect(() => {
     fetch(
       'https://script.google.com/macros/s/AKfycbx8pb0_eZAbBPZ6-UU67BJKMaGnWEVGJEzGv2hp4u8hKLn4if-SAhUH6fDXI3pTA2U-/exec',
-      { mode: 'no-cors' },
     ) // Replace with your actual API endpoint
       .then((response) => {
         console.log(response)
